@@ -20,8 +20,9 @@ form input {
     font-size: 1.2rem;
 }
 
-form input:focus {
-    background-color: yellow;
+form input:focus-visible {
+    outline: none;
+    color: #fff;
 }
 
 form button {
