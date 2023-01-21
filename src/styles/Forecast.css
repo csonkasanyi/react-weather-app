@@ -1,0 +1,18 @@
+.title {
+    color: #fff;
+    text-align: center;
+    margin-top: 1.4rem;
+    margin-bottom: 0;
+    width: 100vw;
+    background-color: transparent;
+}
+
+.title:hover {
+    background-color: transparent;
+}
+
+.dataToVisualize {
+    margin: auto;
+    background-color: bisque;
+    margin-bottom: 1.4rem;
+}

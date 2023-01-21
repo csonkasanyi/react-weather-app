@@ -1,0 +1,13 @@
+footer {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #eee;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #eee;
+    text-decoration: none;
+}

@@ -2,14 +2,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    height: 75vh;
+    justify-content: flex-start;
     color: #fff;
     user-select: none;
 }
 
 main h2, h3 {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0.6);
     width: 20rem;
     padding: 2rem;
     text-align: center;
@@ -18,7 +17,7 @@ main h2, h3 {
 }
 
 main h2:hover, h3:hover {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(0,0,0,0.9);
 }
 
 main h2 {
@@ -30,4 +29,11 @@ main h3 {
     margin: .8rem;
     font-weight: 100;
     font-size: 1.5rem;
+}
+
+.weatherContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }

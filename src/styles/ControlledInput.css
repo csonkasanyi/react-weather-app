@@ -20,6 +20,10 @@ form input {
     font-size: 1.2rem;
 }
 
+form input::-moz-placeholder {
+    color:    #eee;
+ }
+
 form input:focus-visible {
     outline: none;
     color: #fff;
