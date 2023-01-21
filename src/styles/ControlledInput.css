@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+form input, button {
+    padding: .8rem 1.5rem;
+    border: none;
+}
+
+form input {
+    width: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+form input:focus {
+    background-color: yellow;
+}
+
+form button {
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
