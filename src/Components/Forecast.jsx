@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
+import { LineChart, Line, CartesianGrid, YAxis, Tooltip } from 'recharts';
 import '../styles/Forecast.css'
 
 const Forecast = ({ weatherForecast }) => {
